@@ -1,4 +1,4 @@
-这是一个用于邪教模拟的mod，不同于以前的mod，这个模式的工作自动无需人工干预，并将学习一个指定solution(方块)行动的完整生命周期，记录每个阶段的插槽选择。这意味着它可以用来购买书籍、拍卖或使用多个理智进行文书工作。。
+这是一个邪教模拟器的自动化mod。不同于以前的mod，这个模式的工作自动无需人工干预，并且可以在solution(方块)行动的完整生命周期中记录每个阶段的插槽选择。这意味着它可以用来购买书籍、拍卖或使用多个理智进行文书工作。。
 
 
 
@@ -15,21 +15,25 @@
 
 
 
-#安装
+# 安装
 
 
 
-您必须安装https://github.com/BepInEx/BepInEx/releases/tag/v5.0。安装后，必须关闭harmony支持mod才能正常工作。为此，编辑Cultist Simulator/BepInEx/config/BepInEx.cfg并将如下几行附加到文件尾部。
-
+您必须安装https://github.com/BepInEx/BepInEx/releases/tag/v5.0 。安装后，必须关闭harmony支持mod才能正常工作。为此，编辑Cultist Simulator/BepInEx/config/BepInEx.cfg并将如下几行附加到文件尾部。
 
 
 >[Preloader]
 
->ApplyRuntimePatches=假
+>ApplyRuntimePatches=false
 
 
 
 如果配置文件不存在，您可能需要在安装BEPIPEX之后运行一次游戏。如果这对您不起作用，您可能安装了错误版本的bepinex（应该是X86）
+
+
+然后将https://github.com/wywzxxz/cultist-automation/releases 中下载dll放入Cultist Simulator/BepInEx/plugins目录下
+
+-------------------------------
 
 
 This is an automaiton mod for cultist simulation, unlike predecessors, this mod works automatically require no manual interfere, and will learn full lifecircle of an specific solution action, record slot choise for each state. Which means it can be used to purchase book or work at Glover & Glover (using double  Passion) .
@@ -48,6 +52,7 @@ You must install https://github.com/BepInEx/BepInEx/releases/tag/v5.0 . Once you
 >ApplyRuntimePatches = false
 
 if config file not exists, you may need to run game once after bepinex installed. If that didn't working for you , you may installed wrong version of bepinex ( should be X86).
+
 
 -----------------------
 
